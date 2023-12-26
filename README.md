@@ -42,10 +42,9 @@ The system is composed of the following microservices:
 
 1. Solution Architecture 
 
-![Solution architecture](https://github.com/Rohitha97/Spring-Boot-Microservices-Project/assets/73746343/d49a69e1-9220-4b24-a1ed-1ab852ee72b2)
+![Solution architecture](https://github.com/Rohitha97/Spring-Boot-Microservices-Project/assets/73746343/ad10dd74-f496-4848-9344-35e146fc2c4a)
 
-  
+
 2. Logical Architecture
    
-![Logical architecture](https://github.com/Rohitha97/Spring-Boot-Microservices-Project/assets/73746343/77caad91-ccf2-4de7-a3a4-caf83b17a003)
-
+![Logical architecture](https://github.com/Rohitha97/Spring-Boot-Microservices-Project/assets/73746343/dc8b5ea3-fc26-4d33-9475-6ec9be54667e)

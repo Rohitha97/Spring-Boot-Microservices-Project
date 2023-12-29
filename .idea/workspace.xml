@@ -5,52 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="712e7489-a28e-44a5-885a-47294378e6fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/controller/InventoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/model/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/service/InventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/test/java/com/microservices/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/OrderServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/dto/OrderLineItemsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/dto/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/model/OrderLineItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/microservices/orderservice/OrderServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/ProductServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/dto/ProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/dto/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/test/java/com/microservices/productservice/ProductServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/dto/InventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/dto/InventoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/service/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -66,10 +54,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven.microservices-new [clean,verify].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "Spring Boot.InventoryServiceApplication.executor": "Run",
+    "Spring Boot.OrderServiceApplication.executor": "Run",
+    "Spring Boot.ProductServiceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
@@ -79,6 +75,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -88,6 +86,17 @@
       <recent name="D:\Projects\spring boot\microservices-new\order-service" />
       <recent name="D:\Projects\spring boot\microservices-new\inventory-service" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\spring boot\microservices-new" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.microservices.orderservice.dto" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean verify" />
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
     <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -127,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703602401681</updated>
-      <workItem from="1703602402725" duration="798000" />
+      <workItem from="1703602402725" duration="8009000" />
     </task>
     <servers />
   </component>

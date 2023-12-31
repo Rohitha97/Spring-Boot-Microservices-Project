@@ -20,7 +20,7 @@ public class InventoryService {
         return inventoryRepository.findBySkuCodeIn(skuCode).stream()
                 .map(inventory -> InventoryResponse.builder()
                         .skuCode(inventory.getSkuCode())
-                        .isInstock(inventory.getQuantity() > 0)
+                        .isInStock(inventory.getQuantity() > 0)
                         .build())
                 .toList();
 

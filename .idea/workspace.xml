@@ -5,19 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="712e7489-a28e-44a5-885a-47294378e6fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/microservices/shop/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/504ba3e6-ce4b-46f1-9ff4-e7524b51539d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/504ba3e6-ce4b-46f1-9ff4-e7524b51539d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/61f70db5-093b-4635-9c35-7754d8ce441e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/61f70db5-093b-4635-9c35-7754d8ce441e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/qodana_code_quality.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com.microservices.inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/test/java/com/programmingtechie/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/programmingtechie/orderservice/OrderServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/java/com/microservices/shop/discoveryserver/DiscoveryServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/microservices/shop/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/InventoryServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com.microservices.inventoryservice/controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/dto/InventoryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com.microservices.orderservice/dto/InventoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/model/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com.microservices.inventoryservice/model/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com.microservices.inventoryservice/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com.microservices.inventoryservice/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com.microservices.orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com.microservices.orderservice/config/WebClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com.microservices.orderservice/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/dto/InventoryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com.microservices.inventoryservice/dto/InventoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/dto/OrderLineItemsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com.microservices.orderservice/dto/OrderLineItemsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/dto/OrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com.microservices.orderservice/dto/OrderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com.microservices.orderservice/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/model/OrderLineItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com.microservices.orderservice/model/OrderLineItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com.microservices.orderservice/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com.microservices.orderservice/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/ProductServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/dto/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/dto/ProductRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/dto/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/dto/ProductResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +68,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -74,17 +100,55 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/spring boot/microservices-new/discovery-server/src/main/resources",
+    "last_opened_file_path": "D:/Projects/spring boot/microservices-new",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs",
+    "settings.editor.selected.configurable": "settings.qodana",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="QodanaCIConfigService">
+    <option name="ciType" value="GITHUB" />
+    <option name="path" value="$PROJECT_DIR$/.github/workflows/qodana_code_quality.yml" />
+  </component>
+  <component name="QodanaCloudProjectLink">
+    <option name="lastReportId" value="QblBl" />
+    <option name="linkedProjectId" value="ANEXq" />
+    <option name="linkedProjectName" value="Spring-Boot-Microservices-Project" />
+    <option name="organizationId" value="zE66Y" />
+    <option name="userId" value="3jjB4" />
+  </component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\djroh\AppData\Local\Temp\qodana_output6\qodana.sarif.json" />
+        <option name="reportGuid" value="b59162a6-2694-4ebb-9acf-56ee098f61b2" />
+        <option name="reportName" value="microservices-new/qodana/2024-01-06" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\djroh\AppData\Local\Temp\qodana_output1\qodana.sarif.json" reportGuid="017d99d8-2103-4b97-8d6d-dc4fc56b2096" reportId="microservices-new/qodana/2024-01-06" />
+      <ReportDescription localRun="true" path="C:\Users\djroh\AppData\Local\Temp\qodana_output7\qodana.sarif.json" publishedReportLink="https://qodana.cloud/projects/ANEXq/reports/QblBl" reportGuid="01cf1c3e-6dcb-4247-bd95-d41b90a0a0f8" reportId="microservices-new/qodana/2024-01-06" />
+      <ReportDescription localRun="true" path="C:\Users\djroh\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="88aea0da-6987-46cc-8613-099db12868bf" reportId="microservices-new/qodana/2024-01-06" />
+      <ReportDescription localRun="true" path="C:\Users\djroh\AppData\Local\Temp\qodana_output6\qodana.sarif.json" reportGuid="b59162a6-2694-4ebb-9acf-56ee098f61b2" reportId="microservices-new/qodana/2024-01-06" />
+      <ReportDescription localRun="true" path="C:\Users\djroh\AppData\Local\Temp\qodana_output2\qodana.sarif.json" reportGuid="716fdd04-e012-440f-b283-84f32a71c7b6" reportId="microservices-new/qodana/2024-01-06" />
+    </option>
+  </component>
+  <component name="QodanaSettings">
+    <option name="autoLoadCloudReport" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.microservices.inventoryservice" />
@@ -96,6 +160,8 @@
       <recent name="D:\Projects\spring boot\microservices-new\inventory-service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\spring boot\microservices-new\order-service\src\main\java\com.microservices.orderservice" />
+      <recent name="D:\Projects\spring boot\microservices-new\inventory-service\src\main\java\com.microservices.inventoryservice" />
       <recent name="D:\Projects\spring boot\microservices-new" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -107,7 +173,14 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DiscoveryServerApplication">
+  <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
+    <configuration name="DiscoveryServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="discovery-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.programming.techie.discoveryserver.DiscoveryServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="discovery-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.shop.discoveryserver.DiscoveryServerApplication" />
@@ -165,7 +238,10 @@
       <updated>1703602401681</updated>
       <workItem from="1703602402725" duration="9444000" />
       <workItem from="1704010527423" duration="6076000" />
-      <workItem from="1704110969047" duration="2365000" />
+      <workItem from="1704110969047" duration="7234000" />
+      <workItem from="1704290199990" duration="3994000" />
+      <workItem from="1704520179821" duration="3775000" />
+      <workItem from="1704525306757" duration="2048000" />
     </task>
     <servers />
   </component>
@@ -174,5 +250,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

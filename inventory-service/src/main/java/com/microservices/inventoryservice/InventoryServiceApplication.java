@@ -2,7 +2,6 @@ package com.microservices.inventoryservice;
 
 import com.microservices.inventoryservice.model.Inventory;
 import com.microservices.inventoryservice.repository.InventoryRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,7 +11,6 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 @EnableEurekaClient
 public class InventoryServiceApplication {
-
 
     public static void main(String[] args) {
         SpringApplication.run(InventoryServiceApplication.class, args);
